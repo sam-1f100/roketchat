@@ -19,7 +19,7 @@ services:
     networks:
       - dokploy-network
   mongodb:
-    image: bitnami/mongodb:latest
+    image: soldevelo/mongodb:latest
     restart: always
     volumes:
       - mongodb_data:/bitnami/mongodb
